@@ -50,9 +50,8 @@ export const GlobalStyle = createGlobalStyle`
     color: #323232;
     cursor: pointer;
     font-size: 150%;
-    height: 7vh;
     margin-top: 5px;
-    width: 30%;
+    padding: 0 10px;
   }
 
   button:hover {
@@ -60,7 +59,7 @@ export const GlobalStyle = createGlobalStyle`
     color: white;
     transition: 0.5s;
   }
-  .loginPage {
+  .commonPage {
     background-color: gainsboro;
     height: 100vh;
     display: flex;
@@ -69,33 +68,35 @@ export const GlobalStyle = createGlobalStyle`
     align-items: center;
   }
 
-  .loginContainer {
+  .commonContainer {
     display: grid;
     grid-template-columns: 50% 50%;
     height: 90%;
     width: 90%;
   }
 
-  .loginAside {
+  .commonAside {
+    max-height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .loginMain {
+  .commonMain {
+    max-height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    padding: 20px 0;
+    padding: 10px 0;
   }
 
-  .loginForm {
+  .commonForm {
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: space-around;
-    padding: 20px 0;
+    padding: 10px 0;
     gap: 15px 0;
   }
 
