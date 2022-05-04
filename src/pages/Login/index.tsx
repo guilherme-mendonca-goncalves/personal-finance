@@ -14,7 +14,7 @@ export const Login = () => {
             <h2>Acesse sua conta</h2>
             <Input label="E-mail: " type="email" placeholder="Digite aqui o seu e-mail" />
             <Input label="Senha: " type="password" placeholder="Digite aqui a sua senha" />
-            <button>Entrar</button>
+            <Link href="/dashboard"><button>Entrar</button></Link>
           </form>
           <Link href="/register">Não tem uma conta? Crie a sua agora clicando aqui.</Link>
         </main>

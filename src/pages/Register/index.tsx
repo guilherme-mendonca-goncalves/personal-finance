@@ -15,7 +15,7 @@ export const Register = () => {
             <Input label="Nome: " type="name" placeholder="Digite aqui o seu nome" />
             <Input label="E-mail: " type="email" placeholder="Digite aqui o seu e-mail" />
             <Input label="Senha: " type="password" placeholder="Digite aqui a sua senha" />
-            <button>Criar conta</button>
+            <Link href="/"><button>Criar conta</button></Link>
           </form>
           <Link href="/">Já tem uma conta? Faça o login clicando aqui.</Link>
         </main>

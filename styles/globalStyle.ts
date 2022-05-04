@@ -20,6 +20,7 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     font-size: 10px;
+    background-color: gainsboro;
   }
 
   h1 {
@@ -50,8 +51,8 @@ export const GlobalStyle = createGlobalStyle`
     color: #323232;
     cursor: pointer;
     font-size: 150%;
-    margin-top: 5px;
     padding: 0 10px;
+    margin-bottom: 10px;
   }
 
   button:hover {
@@ -59,9 +60,15 @@ export const GlobalStyle = createGlobalStyle`
     color: white;
     transition: 0.5s;
   }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
   .commonPage {
-    background-color: gainsboro;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,5 +109,25 @@ export const GlobalStyle = createGlobalStyle`
 
   .footerP {
     font-size: 6px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
   }
+
+  .dashboardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;;
+  }
+
+  .dashboarPage {
+    background-color: gainsboro;
+    height: 100vh;
+  }
+
+  .rTable{width: 100%; text-align: center;}
+    .rTable thead{background: black; font-weight: bold; color:#fff;}
+    .rTable tbody tr:nth-child(2n){background: #ccc;}
+    .rTable th , .rTable td{padding: 7px 0;}
 `
